@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="websockethub" />
+        <module name="frontend" />
+        <module name="notificationmanager" />
+        <module name="data-access-layer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data-access-layer" target="11" />
+      <module name="frontend" target="11" />
+      <module name="NotificationManager" target="11" />
+      <module name="notificationmanager" target="11" />
+      <module name="websockethub" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="NotificationManager" options="-parameters" />
+      <module name="data-access-layer" options="-parameters" />
+      <module name="frontend" options="-parameters" />
+      <module name="notificationmanager" options="-parameters" />
+      <module name="websockethub" options="-parameters" />
+    </option>
+  </component>
+</project>
